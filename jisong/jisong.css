@@ -1,4 +1,8 @@
-
+@font-face {
+    font-family: YouandiModernTR;
+    src: local('YouandiModernTR'), 
+            url('fonts/YouandiModernTR.ttf');
+    }
 /* reset */
 a {
     color: inherit;
@@ -10,6 +14,9 @@ button, input {
     color: inherit;
 }
 /* common */
+/* * {
+    box-sizing: border-box;
+} */
 .clearfix::after {
     content: '';
     display: block;
@@ -17,7 +24,7 @@ button, input {
 }
 body {
     font-size: 14px;
-    font-family: 'YouandiModern HeadRegular';
+    font-family: YouandiModernTR;
    
 }
 
@@ -48,7 +55,7 @@ header .left {
     float:left;
 }
 header .left .leftmenu li{
-    font-family: 'YouandiModern HeadRegular';
+    font-family: YouandiModernTR;
     font-size: 18px;
     font-weight: 600;
     padding: 35px 20px 33px;
@@ -128,7 +135,7 @@ section{
     /* background: pink; */
     padding: 40px;
     width: 70%;
-    height: 2000px;
+    height: 2100px;
     border-left: 2px solid gray;
 }
 section .box1 div {
@@ -166,13 +173,16 @@ section div h2 {
     margin-top: 100px;
     margin-bottom: 60px;
     font-size: 35px;
-    font-family: 'youandiModern HeadRegular';
-    font-weight: 700;
+    font-family: YouandiModernTR;
+    font-weight: bolder;
     margin-left: 30px;
+}
+section .box2 ul {
+    margin-left: 10px;
 }
 section .box2 ul li {
     margin: 10px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     float: left;
 }
 section .box2 ul .cardA {
@@ -187,8 +197,8 @@ section .box2 ul .cardB {
     margin-bottom: 80px;
 }
 section .box2 ul .cardC {
-    width: 400px;
-    height: 150px;
+    width: 340px;
+    height: 100px;
 }
 section .box2 ul .card1 {
     background: url('img/c1.jpg') no-repeat center/cover;
@@ -211,30 +221,321 @@ section .box2 ul .card6 {
 section .box2 ul .card7 {
     background: url('img/c7.jpg') no-repeat center/cover;
 }
-section .box3 div{
-    border: 1px solid #000;
-    width: 300px;
-    height: 100px;
-    margin-bottom: 80px;
-    float: left;
+section .box2 ul .card8 {
+    background: url('img/h2.1.jpg') no-repeat center/cover;
+    border-radius: 20px;
 }
-section .box4 div{
-    border: 1px solid #000;
-    width: 300px;
-    height: 100px;
-    margin-bottom: 80px;
-    float: left;
+section .box2 ul .card9 {
+    background: url('img/h2.2.jpg') no-repeat center/cover;
+    border-radius: 20px;
+}
+section .box2 ul .card10 {
+    background: url('img/h2.3.jpg') no-repeat center/cover;
+    border-radius: 20px;
 }
 
+section .box3{
+    /* border: 1px solid #000; */
+    width: 1200px;
+    margin-bottom: 80px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+section .box3 .b-3{
+   display: flex; 
+   justify-content: space-around;
+}
+section .box3 .b3{
+    /* border: 1px solid #000; */
+    text-align: center;
+  } 
+section .box3 .b3title{
+    /* color: red; */
+    /* border: 1px solid #000; */
+    display: block;
+}
 
+section .box3 .b3 :first-child{
+    height: 178px;
+}
+section .box3 .b3 :nth-child(2){
+    margin: 20px 10px 10px 10px;
+    font-family: '견고딕';
+    font-size:25px;
+    font-weight: 700;
+}
+section .box3 .b3 :nth-child(3){
+    margin-top: 20px;
+    font-family: '견고딕';
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.5;
+}
+section .box4{
+    margin-bottom: 100px;
+}
+section .box4 .b-4{
+    /* border: 1px solid #000; */
+    width: 1350px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+section .box4 .b4 {
+    width: 28%;
+    /* border: 2px solid #000; */
+    margin-left: 23px;
+    padding: 20px;
+    background: rgb(247, 255, 252);
+    border-radius: 10%;
+    
+}
+section .box4 .b4 img {
+    /* border: 1px solid #000; */
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+section .box4 .b4 :first-child span {
+    color: rgb(12, 61, 124);
+    font-family: '견고딕';
+    font-size: 1.1em;
+    font-weight: bolder;
+    
+    /* border: 1px solid #000; */
+    position: relative;
+    top: -23px;
+    left: 10px;
+}
+section .box4 .b4 :nth-child(2) {
+    font-family: '견고딕';
+    font-size: 1.3em;
+    font-weight: bolder;
+    text-indent: -10px;
+    line-height: 1.3;
+    letter-spacing: -1px;
+
+    margin-top: 10px;
+}
+section .box4 .b4 :nth-child(2)::before {
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+   
+}
+/* section end */
 
 /* aside */
 aside {
-    width: 25%;
-    height: 2000px;
+    width: 21%;
+    height: 2100px;
+    padding: 50px;
+    
+    font-family: '견고딕';
+    font-size: 18px;
+
     border-left: 2px solid  rgb(233, 233, 233);
     float:right;
     position: absolute;
     right: 0;
     top: 100px;
+}
+/* aside div *{
+    box-sizing: border-box;
+} */
+aside > div {
+    margin-bottom: 40px;
+
+}
+aside .abox1 {
+    width: 80%;
+    /* border: 1px solid #000; */
+    padding-bottom: 70px;
+    /* position: relative; */
+}
+aside .abox1 .ab1{
+    width: 100%;
+    padding: 10px 0;
+    /* border: 1px solid #000; */
+    display: flex; 
+    justify-content: space-between;
+    
+}
+aside h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+aside .abox1 .join {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+aside .abox1 ul li{
+    width: 90%;
+    height: 70px;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+   
+}    
+aside .abox1 ul li a {
+    margin-left: -7px;
+    /* width: 30%; */
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #c7c7c7;
+    background: rgb(234, 240, 241);
+    
+    font-size: 16px;
+    color: #949494;
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+aside .abox1 ul li a:first-child {
+    background: #fff;
+    color: #000;
+}
+aside .abox1 .ex {
+    width: 100%;
+    padding: 20px;
+    display: block;
+    /* position: absolute;
+    left: 30px;
+    top: 30% */
+}
+aside .abox1 .ex {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+    padding-left: 10px;
+}
+aside .abox1 .ex span{
+    padding: 10px;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 6px;
+}
+aside .abox1 .pww {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+aside .abox1 .pwwset {
+    margin-top: 15px;
+
+    color: #5c5c5c;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right;
+}
+aside div h3 {
+    margin-bottom: 20px;
+}
+aside div .ab-b {
+    
+    justify-content: space-between;
+}
+aside div .ab-b div{
+    width: 74%;
+    display: block;
+    padding: 13px;
+    background: #e4e9f0;
+    border: 1px solid #ffffff;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-between;
+}
+aside div .ab-b div:hover a{
+    text-decoration: underline;
+}
+aside div .ab-c div{
+    width: 80%;
+    display: block;
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+aside div .ab-c div:hover a{
+    text-decoration: underline;
+}
+aside .abox5 {
+    margin-bottom: 70px;
+}
+aside .abox5 .ab2 {
+    /* border: 1px solid #000; */
+    width: 80%;
+    display: block;
+    padding: 8px 0;
+    
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+aside .abox5 .ab-d a {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.6;
+} aside .abox5 .ab-d a span {
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+} 
+aside .abox5 .ab-d a:hover{
+    text-decoration: underline;
+}
+/* aside end */
+/* footer */
+footer {
+    font-family: '견고딕';
+    font-size: 13px;
+    font-weight: bold;
+}
+footer .fbox1 ul {
+    display: flex;
+}
+footer ul li {
+    padding-right: 18px;
+}
+footer .fbox1 ul li{
+    /* border: 1px solid #000; */
+    margin-top: 20px;
+}
+
+footer .fbox2{
+    display: flex;
+}
+footer .fbox2 ul{
+    /* border: 1px solid #000; */
+    margin: 30px 0;
+    line-height: 1.5;
+}
+footer .fbox3 div{
+    margin: 10px 0 30px;
+    display: flex;
+
+    line-height: 1.5;
+    color: #5c5c5c;
+}
+footer .fbox4 span{
+    display: block;
+    line-height: 1.4;
+}
+footer .fbox4 span:first-child{
+    font-weight: 400;
 }
