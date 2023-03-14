@@ -20,47 +20,54 @@
         display: flex;
         justify-content: space-between;
     }
-    .container{
-        font-family:YouandiModernTR;
-        display: flex;
-    }
-
+    
     header nav{
         display: flex;
     }
-
+    
     header .right_nav li, header .left_nav li, .search{
-        display: inline-flex;
+        display: inline-block;
         line-height: 80px;
         height: 100%;
+        border: 1px solid black;
+    }
+    header .left_nav li{
+        font-size: 18px;
+        font-weight: 700;
+        padding: 0 20px;
         
     }
-
+    
+    header .right_nav li{
+        color: #5c5c5c;
+    }
+    
     header h1{
         border: 1px solid black;
-        /* height: 80px; */
-        margin-left: 15px;
+        margin-left: 35px;
     }
-
+    
     header h1 img{
-        width: 100px;
+        width: 145px;
+        border: 1px solid green;
     }
-
-    header .left_nav li ,header .right_nav li{
-        border: 1px solid black;
-        padding-left: 10px;
-    }
-
+    
     header .search{
         display: inline-flex;
         border: 1px solid black;
         width: fit-content;
     }
     
+    .container{
+        font-family:YouandiModernTR;
+        display: flex;
+        font-size: 14px;
+    }
+    
     .container .left_col{
         background: lightblue;
         border-right: 2px solid lightgray;
-        width: 70%;
+        width: 68%;
         margin-left: 7%;
     }
     
@@ -205,8 +212,15 @@
         font-weight: 700;
         font-size: 14px;;
         margin-top: 10px;
-        background: lightcoral;
-        width: 30%;
+        /* background: lightcoral; */
+        width: 32%;
+    }
+
+    .container .right_col .box{
+        border:1px solid #000;
+        margin-top: 50px;
+        margin-left: 55px;
+        margin-right: 20px;
     }
 
     .container .right_col .right_login{
@@ -216,9 +230,9 @@
     }
 
     .container .right_col .right_login h3{
+        border: 1px solid green;
         font-size: 20px;
     }
-
 
     .right_col .circle{
         display: flex;
