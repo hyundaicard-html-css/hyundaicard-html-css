@@ -18,45 +18,52 @@
         font-size: 0.7em;
         font-family:YouandiModernTR;
         display: flex;
-        justify-content: space-between;
     }
     
     header nav{
         display: flex;
+        margin-left: 35px;
     }
     
     header .right_nav li, header .left_nav li, .search{
         display: inline-block;
         line-height: 80px;
         height: 100%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
     header .left_nav li{
         font-size: 18px;
         font-weight: 700;
-        padding: 0 20px;
-        
+        padding: 0 15px;
     }
     
+    header .right_nav{
+        /* border: 1px solid purple; */
+        margin-left: 480px;
+    }
+
     header .right_nav li{
         color: #5c5c5c;
+        padding: 0 10px;
     }
     
     header h1{
-        border: 1px solid black;
+        /* border: 1px solid black; */
         margin-left: 35px;
     }
     
     header h1 img{
         width: 145px;
-        border: 1px solid green;
+        /* border: 1px solid green; */
+        padding-top: 10px;
     }
     
     header .search{
-        display: inline-flex;
         border: 1px solid black;
         width: fit-content;
-    }
+        border-radius: 50px;
+        
+  }
     
     .container{
         font-family:YouandiModernTR;
@@ -65,19 +72,25 @@
     }
     
     .container .left_col{
-        background: lightblue;
-        border-right: 2px solid lightgray;
+        /* background: lightblue; */
+        border-right: 1px solid lightgray;
         width: 68%;
-        margin-left: 7%;
+        margin-left: 8%;
+        margin-top: 10px;
     }
     
     .container .left_col .second{
         margin-top: 50px;
         padding-left: 15px;
     }
+
+    .container .left_col .VisualBannerCms{
+        margin-top: 55PX;
+    }
+
     .container .left_col .VisualBannerCms img:first-child{
-        width: 518px;
-        height: 392px;
+        width: 580px;
+        height: 440px;
         padding-left: 0px;
     }
 
@@ -87,10 +100,11 @@
     
 
     .container .left_col .VisualBannerCms img{
+        /* border: 1px solid black; */
         justify-content: space-around;
-        width: 248px;
-        height: 392px;
-        padding-left: 20px;
+        width: 299px;
+        height: 440px;
+        padding-left: 22px;
     }
 
     .container .card_plate{
@@ -124,7 +138,6 @@
     }
 
     .container .cp_card_list li{
-        
         flex-direction: column;
         /* border: 1px solid purple; */
     }
@@ -136,7 +149,6 @@
     }
 
     .container .cp_card_list .card_name{
-        /* border: 1px solid green; */
         text-align:center;
         font-size: 0.9em;
         font-weight:700 ;
@@ -147,7 +159,6 @@
     
     .container .second{
         margin-top: 20px;
-        /* border: 1px solid red; */
         display: flex;
         width: fit-content;
     }
@@ -170,9 +181,7 @@
         /* border: lpx solid black; */
         display: flex;
         width: 25%;
-
     } 
-
     
     .container .last{
         /* border: 1px solid black; */
@@ -190,21 +199,20 @@
     }
     
     .container .last .box li div{
-        border: 1px solid purple;
+        /* border: 1px solid purple; */
         width: 280px;
         height: 280px;
         display: flex;
-        margin-top: 55px;
-        margin-right: 25px;
-        margin-bottom: 20px;
+        margin: 25px 17px 20px 0;
         border-radius: 20px;
         overflow: hidden;
     }
+
+    
     .container .last .box li p{
         font-size:15px ;
         width: fit-content;
         font-weight: 800;
-        /* border: 1px solid green; */
         margin-top: 8px;
     }
     
@@ -218,15 +226,14 @@
 
     .container .right_col .box{
         border:1px solid #000;
-        margin-top: 50px;
-        margin-left: 55px;
-        margin-right: 20px;
+        margin-top: 70px;
+        margin-left: 64px;
+        margin-right: 140px;
     }
 
     .container .right_col .right_login{
         border: 1px solid black;
         display: flex;
-
     }
 
     .container .right_col .right_login h3{
@@ -234,12 +241,15 @@
         font-size: 20px;
     }
 
+    .box .right_login_two span{
+        border: 1px solid purple;
+    }
+
     .right_col .circle{
         display: flex;
     }
 
     .right_col .circle span{
-        /*  */
         width: 18px;
         height: 18px;
         border: 1px solid gray;
