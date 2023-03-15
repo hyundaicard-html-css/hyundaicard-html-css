@@ -1,0 +1,509 @@
+@import url(../common.css);
+@font-face {
+    font-family: YouandiModernTR;
+    src: local('YouandiModernTR'), 
+            url('../hyundaicard_project/fonts/YouandiModernTR.ttf');
+    }
+
+
+body{
+    width: 100%;
+    height: 1080px;
+    /* background: pink; */
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: YouandiModernTR;
+
+}
+
+.header{
+    height:20%;
+    position:relative;
+    width:100%;
+    height: 100px;
+    margin:0 auto;
+    /* margin-bottom:120px; */
+    /* border: 8px solid blue; */
+    background: #000;
+    color: white;
+    
+}
+
+.header .logo {
+    background: url(../hyundaicard_project/img/logo_header.png) no-repeat center;
+    width: 175px;
+    height: 50px;
+    /* border: 1px solid red; */
+    position: absolute;
+    margin: 40px 10%;
+    /* top: 20px;
+    left: 30px; 
+    padding-top: 30px; */
+}
+
+.header .gnb {
+    /* border: 3px solid green; */
+    position: absolute; 
+    top: 40px;
+    right: 10%;
+    font-size: 0.6em;
+}
+.header .gnb li{
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+    line-height: 24px;
+}
+.header .gnb li:hover{
+    background: white;
+    color: blue;
+    
+}
+.header .tnb{
+    text-align: center;
+    font-size: 10px;
+    /* background: yellow; */
+    position: absolute;
+    top: 5px;
+    right: 10%;
+    color: black;
+    padding: 10px;
+    margin-right: 0%;
+    word-spacing: 20px;
+    color: gray;
+}
+.header .tnb li:nth-child(4){
+    color: white;
+}
+.header .tnb li {
+    display: inline-block;
+}
+/* 끝 */
+
+article{
+    border: 2px solid lightgray;
+    width: 80%;
+    margin: 0 10%;
+    height: 100vh;
+    font-family: YouandiModernTR;
+    margin-top: 30px;
+
+    
+}
+
+article h2{ /*h1 헤더 부분*/
+    /* border: 1px solid blue; */
+    font-size: 20px;   
+}
+
+article{
+    /* border: 2px solid brown; */
+    width: 80%;
+    margin: 0 10%;
+    height: 100vh;
+}
+
+article h2{ /*h1 헤더 부분*/
+    /* border: 1px solid blue; */
+    font-size: 20px;   
+}
+article .main .login {
+    /* border: 4px solid blue; */
+    width: 25%;
+    height: 600px;
+    background: url(img/bg_login_ssem_202202.jpg) no-repeat center/cover;
+    margin: 0 auto;
+    color: white;
+    position: relative;    
+    float: left;
+}
+article .main .login .uplogin{
+    /* border: 2px solid red; */
+    width: 65%;
+    font-size: 0.8em;
+    position: absolute;
+    top: 50px;
+    right: 70px;   
+}
+article .main .login .uplogin .joinus{
+    display: flex;
+    justify-content: space-between;
+
+}
+article .main .login .uplogin .square_box{
+    background: white;
+    color: gray;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+article .main .login .uplogin .idpw{
+    display: flex;
+    justify-content: space-between;
+}
+
+article .main .login_bottom {
+    /* border: 2px solid darksalmon; */
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 0.9em;
+    width: 70%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-48%, 100%);   
+}
+
+article .main .login_bottom .event:hover {
+    text-decoration: underline;
+
+}
+article .main .login_bottom .more-text{
+    /* border: 2px solid green; */
+    font-size: 13px;
+    position: absolute;
+    margin-top: 5px;
+}
+/* login 박스 끝 */
+
+article .main .middlemain {
+    /* border: 2px solid red; */
+    width: 50%;
+    height: auto;
+    float: left;
+
+}
+article .main .middlemain .cardinfo h2{
+    /* border: 1px solid #000; */
+    padding: 25px 0 10px 20px;
+}
+article .main .middlemain .cardinfo{
+    /* border: 1px solid blue; */
+    height: 60%;
+
+
+}
+article .main .middlemain .cardinfo .card_image{
+    /* background:  #000; */
+    display: flex;
+    
+    /* justify-content: space-between; */
+    margin: 30px;
+    
+    
+        
+}
+article .main .middlemain .cardinfo .card_image li {
+    /* border: 1px solid red; */
+    font-size: 0.8em;
+    /* display: inline; */
+   
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-left: 60px;
+
+}
+article .main .middlemain .cardinfo .card_image li img{
+ /* border: 1px solid teal; */
+ width: 160px;
+
+ 
+}
+
+article .main .middlemain .supportservice{
+    /* border: 1px solid orange; */
+}
+
+article .main .middlemain .supportservice .content_title{
+    /* border: 1px solid blue; */
+    padding: 25px 0 10px 20px;
+}
+
+article .main .middlemain .supportservice .list{
+    /* background: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article .main .middlemain .supportservice .list li{
+    /* border: 1px solid red; */
+    padding: 32px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.6em; 
+    
+}
+article .main .middlemain .supportservice .list li:hover{
+    color: blue; 
+}
+
+ /* 오른쪽 상단 */
+.section .main .rightmain .benefitevents{
+    background: #000;
+    /* padding: 25px 0 10px 20px; */
+}
+
+
+article .rightmain .benefitevents .content_title{
+    /* border: 2px solid salmon; */
+    padding : 25px 0 10px 40px;
+    /* margin: 10px 20px; */
+}
+article .rightmain .benefitevents{
+    /* background: slateblue; */
+    width: 25%;
+    height: 280px;
+    float: left;
+    /* border: 1px solid lightgray; */
+
+}
+article .rightmain .benefitevents .benefitevents_image{
+    /* background: #000; */
+    margin: 40px 40px;
+    position: absolute;
+    background-position: center;
+    
+}
+article .rightmain .benefitevents .image_content{
+    /* border: 1px solid lightgray; */
+    width: 240px;    
+    margin: 180px 40px;
+    font-size: 0.8em;
+    position: absolute;
+
+}
+
+
+article .rightmain .special_benefits{
+    /* border: 1px solid #000; */
+    width: 25%;
+    height: 270px;
+    float: left;
+
+}
+article .rightmain .special_benefits .content_title{
+    /* border: 2px solid blue; */
+    padding: 15px 0;
+    margin: 20px 40px;
+    line-height: 26px;
+}
+article .rightmain .special_benefits .contents{
+    padding: 5px 0;
+    margin-left: 40px;
+    font-size: 12px;
+}
+article .rightmain .special_benefits .contents li span{
+    color: blue;
+}
+article .rightmain .special_benefits .contents li:hover{
+    color: blue;
+}
+/* article .main .secondline {
+    height: auto;
+} */
+/* article .main .secondline .apply{
+    border: 3 solid #000;
+    width: 25%;
+    float: left;
+    height: 280px;
+} */
+
+
+article .secondline{
+    /* background: teal; */
+    width: 25%;
+    /* height: 280px; */
+}
+
+article .main .secondline .apply .content_title{
+    /* border: 1px solid #000; */
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0px 50px;
+    clear:both;
+}
+
+article .secondline .apply img{
+    /* border: 1px solid yellowgreen; */
+    padding: 15px 0;
+    margin-left: 40px;
+
+    position: absolute;
+    background-position: center;
+}
+article .secondline .apply .image_content{
+    /* border: 1px solid violet; */
+    width: 240px;
+    font-size: 0.8em;
+    margin: 170px 40px;
+    position: absolute;
+}
+
+/* 컬처라이프 */
+article .secondline .culture{
+    width: 100%;
+    margin-top: -53px;
+    margin-left: 95%;
+    /* display: flex; */
+}
+article .secondline .culture .content_title{
+    /* border: 1px solid #000; */
+    padding-top: 18px;
+    padding-bottom: 10px;
+    margin: 0px 40px;
+    display: flex;
+}
+article .secondline .culture img{
+    /* border: 1px solid yellowgreen; */
+    padding: 15px 30px;
+    margin-left: 40px;
+
+    position: absolute;
+    background-position: center;
+}
+article .secondline .culture .image_content{
+    width: 240px;
+    font-size: 0.8em;
+    margin: 170px 70px;
+    position: absolute;
+}
+/* 디지털 프로젝트 */
+article .secondline .digital{
+    width: 100%;
+    margin-top: -53px;
+    margin-left: 190%;
+}
+article .secondline .digital .content_title{
+    /* border: 1px solid #000; */
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0px 40px;
+    display: flex;
+}
+
+article .secondline .digital img{
+    padding: 15px 30px;
+    margin-left: 40px;
+
+    position: absolute;
+    background-position: center;
+}
+article .secondline .digital .image_content{
+    width: 240px;
+    font-size: 0.8em;
+    margin: 170px 70px;
+    position: absolute;
+}
+
+article .secondline .cs{
+    /* background: black; */
+    width: 100%;
+    margin-top: -53px;
+    margin-left: 300%;
+}
+
+article .secondline .cs .content_title{
+    /* border: 1px solid #000; */
+    padding: 15px 30px ;
+    display: flex;
+}
+
+article .secondline .cs .cs_info{ 
+    /* background: lightblue; */
+}
+
+article .secondline .cs .basic_cs{
+    background: #EFEFEF;
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px
+}
+
+article .secondline .cs .basic_cs li{
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    font-size: 0.8em;
+
+}
+
+article .secondline .cs .cs_info .etc_cs{
+    margin: 40px 20px;
+
+}
+article .secondline .cs .cs_info .etc_cs li{   
+    width: 280px; 
+    color: #6F6D6C    
+}
+article .secondline .cs .cs_info .etc_cs li p{ 
+    font-size: 1.1em;   
+    color: #6F6D6C    
+}
+/* article .secondline .cs .cs_info .etc_cs li:first-child{
+    font-size: 0.8em;   
+} */
+article .secondline .cs .cs_info .etc_cs li:last-child{    
+    padding-top: 10px;
+    font-size: 0.9em;
+    width: 280px;
+}
+
+
+/* footer */
+.footer {
+    width: 80%;
+    height: auto;
+    /* border: 4px solid firebrick; */
+    margin: 0 10%;
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    background: #fafafa;
+    font-family: YouandiModernTR;
+
+}
+
+.footer .cs{
+    padding-top: 10px; 
+}
+
+.footer .cs li{
+    display: inline-block;
+}
+.footer .menu li{
+    display: inline-block;
+    padding-bottom: 15px;
+}
+.footer .site{
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
+.footer .info{
+    padding-top: 20px;
+}
+.footer .copyright{
+    padding-top: 10px;
+}
+.footer .footer_logo{
+    padding-top: 20px;
+}
