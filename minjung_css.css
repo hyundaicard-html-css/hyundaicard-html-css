@@ -1,4 +1,4 @@
-@import url('../common.css');
+@import url('common.css');
 @font-face { font-family: YouandiModernTR; src: local('YouandiModernTR'),  url('../fonts/YouandiModernTR.ttf'); }
    
     *{
@@ -278,10 +278,12 @@
     .right_col .simple_pw{
         margin-top: 40px;
         text-align: center;
+        border: 1px solid black;
     }
 
     .right_col .circle{
         display: flex;
+        
     }
 
     .right_col .simple_pw .simple_pw_circle span{
@@ -291,4 +293,81 @@
         background: gray;
         border-radius: 50%;
         margin-right: 10px;
+    }
+
+    .right_col .simple_pw .simple_pw_button{
+        border: 1px solid black;
+        background: #000;
+        color: #fff;;
+        padding: 20px 0;
+        border-radius: 4px;
+        /* margin-bottom: 10px; */
+    }
+    .right_col .simple_pw .membership{
+    
+        border: 1px solid black;
+    }
+
+    .right_col .simple_pw .simple_pw_quick_menu ul{
+        border: 1px solid black;
+        display: flex;
+        border-radius: 4px;
+        justify-content: space-around;
+        /* margin-top: 20px; */
+    }
+    .right_col .simple_pw .simple_pw_quick_menu ul li{
+        border-right: 1px solid gray;
+        padding: 20px;
+    }
+
+    .right_col .finance{
+        margin-top: 40px;
+    }
+
+    .right_col .finance .finance_list{
+        border: 2px solid black;
+        border-radius: 4px;
+    }
+    .right_col .finance .finance_list li{
+        border-bottom: 1px solid gray;
+        padding: 15px;
+    }
+
+    .right_col .news{
+        margin-top: 30px;
+    }
+
+    .right_col .news ul{
+        margin-top: 20px;
+        border: 1px solid black;
+    }
+    
+    .right_col .news li{
+        margin-bottom: 10px;
+    }
+    .right_col .right_banner{
+        border: 1px solid black;
+        margin-top: 20px;
+        display: flex;
+    }
+    .right_col .right_banner img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .right_col .consumer{
+        margin-top: 200px;
+        border-bottom: 1px solid gray;
+    }
+    .right_col .consumer p{
+       margin-bottom: 20px;
+    }
+
+    
+    .right_col .footer{
+        margin-top: 20px;
+    }
+    .right_col .footer ul{
+        display: flex;
+        border: 1px solid black;
     }
