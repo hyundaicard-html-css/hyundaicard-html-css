@@ -1,0 +1,259 @@
+@import url('../common.css');
+@font-face { font-family: YouandiModernTR; src: local('YouandiModernTR'),  url('../YouandiModernTR.ttf'); }
+   
+    *{
+        box-sizing: border-box;
+        
+    }
+    body{
+        /* background: lightgray; */
+    }
+
+    header {
+        height: 80px;
+        width: 100%;
+        /* background-color: aquamarine; */
+        border-bottom: 2px solid lightgray;
+        font-weight: 800;
+        font-size: 0.7em;
+        font-family:YouandiModernTR;
+        display: flex;
+    }
+    
+    header nav{
+        display: flex;
+        margin-left: 35px;
+    }
+    
+    header .right_nav li, header .left_nav li, .search{
+        display: inline-block;
+        line-height: 80px;
+        height: 100%;
+        /* border: 1px solid black; */
+    }
+    header .left_nav li{
+        font-size: 18px;
+        font-weight: 700;
+        padding: 0 15px;
+    }
+    
+    header .right_nav{
+        /* border: 1px solid purple; */
+        margin-left: 480px;
+    }
+
+    header .right_nav li{
+        color: #5c5c5c;
+        padding: 0 10px;
+    }
+    
+    header h1{
+        /* border: 1px solid black; */
+        margin-left: 35px;
+    }
+    
+    header h1 img{
+        width: 145px;
+        /* border: 1px solid green; */
+        padding-top: 10px;
+    }
+    
+    header .search{
+        border: 1px solid black;
+        width: fit-content;
+        border-radius: 50px;
+        
+  }
+    
+    .container{
+        font-family:YouandiModernTR;
+        display: flex;
+        font-size: 14px;
+    }
+    
+    .container .left_col{
+        /* background: lightblue; */
+        border-right: 1px solid lightgray;
+        width: 68%;
+        margin-left: 8%;
+        margin-top: 10px;
+    }
+    
+    .container .left_col .second{
+        margin-top: 50px;
+        padding-left: 15px;
+    }
+
+    .container .left_col .VisualBannerCms{
+        margin-top: 55PX;
+    }
+
+    .container .left_col .VisualBannerCms img:first-child{
+        width: 580px;
+        height: 440px;
+        padding-left: 0px;
+    }
+
+    .container .left_col .line{
+        border-bottom: 1px solid lightgray;
+    }
+    
+
+    .container .left_col .VisualBannerCms img{
+        /* border: 1px solid black; */
+        justify-content: space-around;
+        width: 299px;
+        height: 440px;
+        padding-left: 22px;
+    }
+
+    .container .card_plate{
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .container .card_plate h2{
+        padding-top: 10px;
+        font-size: 40px;
+        font-weight: 800px;
+        line-height: 52px;
+    }
+
+    .container .card_plate .left {
+        line-height: 25px;
+    }
+
+    .container .card_plate .cp_list {
+        padding-top: 20px;
+    }
+
+    .container .card_plate .cp_list li{
+        border: 1px solid gray;
+        background-color: #fff;
+        width: fit-content;
+        padding: 8px;
+        border-radius: 20px;
+        margin-top: 5px ;
+        font-weight: 600;
+    }
+
+    .container .cp_card_list li{
+        flex-direction: column;
+        /* border: 1px solid purple; */
+    }
+
+    .container .cp_card_list img{
+        margin: 0 auto;
+        width: 95px;
+        height: 150px;
+    }
+
+    .container .cp_card_list .card_name{
+        text-align:center;
+        font-size: 0.9em;
+        font-weight:700 ;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        line-height: 25px;
+    }
+    
+    .container .second{
+        margin-top: 20px;
+        display: flex;
+        width: fit-content;
+    }
+
+    .container .second .card_plate {
+        /* border: 1px solid yellow; */
+        width: fit-content;
+        margin-right: 75px;
+    }
+    
+
+    .container .cp_card_list{
+        width: 75%;
+        /* border: lpx solid black; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container .cp_card_list li{
+        /* border: lpx solid black; */
+        display: flex;
+        width: 25%;
+    } 
+    
+    .container .last{
+        /* border: 1px solid black; */
+        padding-bottom: 200px;
+    }
+
+    .container .last .box :first-child{
+        margin-left: 0;
+    }
+
+    .container .last .box{
+        /* bottom: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .container .last .box li div{
+        /* border: 1px solid purple; */
+        width: 280px;
+        height: 280px;
+        display: flex;
+        margin: 25px 17px 20px 0;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    
+    .container .last .box li p{
+        font-size:15px ;
+        width: fit-content;
+        font-weight: 800;
+        margin-top: 8px;
+    }
+    
+    .container .right_col{
+        font-weight: 700;
+        font-size: 14px;;
+        margin-top: 10px;
+        /* background: lightcoral; */
+        width: 32%;
+    }
+
+    .container .right_col .box{
+        border:1px solid #000;
+        margin-top: 70px;
+        margin-left: 64px;
+        margin-right: 140px;
+    }
+
+    .container .right_col .right_login{
+        border: 1px solid black;
+        display: flex;
+    }
+
+    .container .right_col .right_login h3{
+        border: 1px solid green;
+        font-size: 20px;
+    }
+
+    .box .right_login_two span{
+        border: 1px solid purple;
+    }
+
+    .right_col .circle{
+        display: flex;
+    }
+
+    .right_col .circle span{
+        width: 18px;
+        height: 18px;
+        border: 1px solid gray;
+        background: gray;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
