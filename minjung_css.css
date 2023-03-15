@@ -1,5 +1,5 @@
 @import url('../common.css');
-@font-face { font-family: YouandiModernTR; src: local('YouandiModernTR'),  url('../YouandiModernTR.ttf'); }
+@font-face { font-family: YouandiModernTR; src: local('YouandiModernTR'),  url('../fonts/YouandiModernTR.ttf'); }
    
     *{
         box-sizing: border-box;
@@ -66,17 +66,19 @@
   }
     
     .container{
-        font-family:YouandiModernTR;
+        
         display: flex;
         font-size: 14px;
     }
     
     .container .left_col{
-        /* background: lightblue; */
+        font-family:YouandiModernTR;
+        background: lightblue;
         border-right: 1px solid lightgray;
-        width: 68%;
+        width: 80%;
         margin-left: 8%;
         margin-top: 10px;
+        
     }
     
     .container .left_col .second{
@@ -215,11 +217,16 @@
         font-weight: 800;
         margin-top: 8px;
     }
-    
+    /* 왼쪽 영역 끝  */
+
+
+
+    /* 오른쪽 영역 시작  */
     .container .right_col{
         font-weight: 700;
         font-size: 14px;;
         margin-top: 10px;
+        line-height:20px;
         /* background: lightcoral; */
         width: 32%;
     }
@@ -232,24 +239,52 @@
     }
 
     .container .right_col .right_login{
-        border: 1px solid black;
         display: flex;
+        justify-content: space-between;
     }
 
     .container .right_col .right_login h3{
-        border: 1px solid green;
         font-size: 20px;
+    }
+    
+    .container .right_col .right_login span{
+        border: 1px solid green;
+        width: fit-content;
+
+    }
+    
+
+    .right_login_two{
+        /* border: 1px solid blue; */
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .box .right_login_two span{
-        border: 1px solid purple;
+        font-weight:700px ;
+        border: 2px solid black;
+        padding: 20px;
+        width: 50%;
+        height: 48px;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .right_login_two span:first-child{
+        margin-right: 5px;
+    }
+
+    .right_col .simple_pw{
+        margin-top: 40px;
+        text-align: center;
     }
 
     .right_col .circle{
         display: flex;
     }
 
-    .right_col .circle span{
+    .right_col .simple_pw .simple_pw_circle span{
         width: 18px;
         height: 18px;
         border: 1px solid gray;
