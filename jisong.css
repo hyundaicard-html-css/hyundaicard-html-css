@@ -307,6 +307,7 @@ section .box4 .b4 :first-child span {
     top: -23px;
     left: 10px;
 }
+
 section .box4 .b4 :nth-child(2) {
     font-family: '견고딕';
     font-size: 1.3em;
@@ -316,13 +317,42 @@ section .box4 .b4 :nth-child(2) {
     letter-spacing: -1px;
 
     margin-top: 10px;
+    z-index: 9999;
+
 }
-section .box4 .b4 :nth-child(2)::before {
-    background-color: aqua;
-    width: 20px;
-    height: 20px;
-   
+section .box4 .b-4 .mark1:after{
+    content: '';
+    display: inline-block;
+    width: 365px;
+    height: 15px;
+    background: rgb(123, 179, 201);
+    opacity: 0.5;
+    position: relative;
+    top: -43px;
 }
+section .box4 .b-4 .mark2:after{
+    content: '';
+    display: inline-block;
+    width: 240px;
+    height: 15px;
+    background: rgb(123, 179, 201);
+    opacity: 0.5;
+    position: relative;
+    left: -96px;
+    top: -20px;
+}
+
+/* section .box4 .b-4 .mark3:after{
+    content: '';
+    display: inline-block;
+    width: 185px;
+    height: 15px;
+    background: rgb(123, 179, 201);
+    opacity: 0.5;
+    position: relative;
+    right: -160px;
+    top: -20px;
+} */
 /* section end */
 
 /* aside */
