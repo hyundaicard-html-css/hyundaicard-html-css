@@ -18,6 +18,8 @@
         font-size: 0.7em;
         font-family:YouandiModernTR;
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     header nav{
@@ -25,7 +27,7 @@
         margin-left: 35px;
     }
     
-    header .right_nav li, header .left_nav li, .search{
+    header .right_nav li, header .left_nav li{
         display: inline-block;
         line-height: 80px;
         height: 100%;
@@ -62,23 +64,23 @@
         border: 1px solid black;
         width: fit-content;
         border-radius: 50px;
-        
+        height: 30px;
+        padding: 20px;
+        margin-left: 10px;
   }
     
     .container{
-        
         display: flex;
         font-size: 14px;
     }
     
     .container .left_col{
         font-family:YouandiModernTR;
-        background: lightblue;
+        /* background: lightblue; */
         border-right: 1px solid lightgray;
         width: 80%;
         margin-left: 8%;
         margin-top: 10px;
-        
     }
     
     .container .left_col .second{
@@ -99,10 +101,8 @@
     .container .left_col .line{
         border-bottom: 1px solid lightgray;
     }
-    
 
     .container .left_col .VisualBannerCms img{
-        /* border: 1px solid black; */
         justify-content: space-around;
         width: 299px;
         height: 440px;
@@ -141,7 +141,6 @@
 
     .container .cp_card_list li{
         flex-direction: column;
-        /* border: 1px solid purple; */
     }
 
     .container .cp_card_list img{
@@ -166,7 +165,6 @@
     }
 
     .container .second .card_plate {
-        /* border: 1px solid yellow; */
         width: fit-content;
         margin-right: 75px;
     }
@@ -174,19 +172,16 @@
 
     .container .cp_card_list{
         width: 75%;
-        /* border: lpx solid black; */
         display: flex;
         flex-wrap: wrap;
     }
 
     .container .cp_card_list li{
-        /* border: lpx solid black; */
         display: flex;
         width: 25%;
     } 
     
     .container .last{
-        /* border: 1px solid black; */
         padding-bottom: 200px;
     }
 
@@ -195,13 +190,11 @@
     }
 
     .container .last .box{
-        /* bottom: 1px solid black; */
         display: flex;
         flex-wrap: wrap;
     }
     
     .container .last .box li div{
-        /* border: 1px solid purple; */
         width: 280px;
         height: 280px;
         display: flex;
@@ -227,48 +220,45 @@
         font-size: 14px;;
         margin-top: 10px;
         line-height:20px;
-        /* background: lightcoral; */
         width: 32%;
+       
     }
 
     .container .right_col .box{
-        border:1px solid #000;
         margin-top: 70px;
         margin-left: 64px;
         margin-right: 140px;
+        overflow: hidden;
+    }
+
+    .right_col h3{
+        font-size: 20px;
     }
 
     .container .right_col .right_login{
         display: flex;
         justify-content: space-between;
     }
-
-    .container .right_col .right_login h3{
-        font-size: 20px;
-    }
     
     .container .right_col .right_login span{
-        border: 1px solid green;
         width: fit-content;
 
     }
-    
 
     .right_login_two{
-        /* border: 1px solid blue; */
         margin-top: 15px;
         display: flex;
         justify-content: space-between;
+        height: 48px;
     }
 
     .box .right_login_two span{
         font-weight:700px ;
         border: 2px solid black;
-        padding: 20px;
         width: 50%;
-        height: 48px;
         border-radius: 4px;
         text-align: center;
+        line-height: 48px; 
     }
 
     .right_login_two span:first-child{
@@ -278,21 +268,21 @@
     .right_col .simple_pw{
         margin-top: 40px;
         text-align: center;
-        border: 1px solid black;
     }
 
-    .right_col .circle{
-        display: flex;
-        
+    .right_col .simple_pw_circle{
+        margin-top: 20px;
+        display: inline-flex;
+        width: 220px;
+        justify-content: space-between;
     }
 
     .right_col .simple_pw .simple_pw_circle span{
         width: 18px;
         height: 18px;
-        border: 1px solid gray;
-        background: gray;
+        border: 1px solid lightgray;
+        background: lightgray;
         border-radius: 50%;
-        margin-right: 10px;
     }
 
     .right_col .simple_pw .simple_pw_button{
@@ -301,73 +291,164 @@
         color: #fff;;
         padding: 20px 0;
         border-radius: 4px;
-        /* margin-bottom: 10px; */
+        margin-top: 25px;
+        
     }
     .right_col .simple_pw .membership{
-    
-        border: 1px solid black;
+        color: gray;
+        float: right;
+        margin-top: 15px;
     }
 
     .right_col .simple_pw .simple_pw_quick_menu ul{
-        border: 1px solid black;
+        border: 1px solid gray;
         display: flex;
         border-radius: 4px;
         justify-content: space-around;
-        /* margin-top: 20px; */
+        margin-top: 70px;
     }
+
     .right_col .simple_pw .simple_pw_quick_menu ul li{
-        border-right: 1px solid gray;
-        padding: 20px;
+        border-right: 1px solid lightgray;
+        padding: 8px 20px;
+        font-size: 12px;
+        display: block;
     }
+
+    .right_col .simple_pw .simple_pw_quick_menu img{
+        width: 32px;
+        height: 32px;
+    }
+
 
     .right_col .finance{
         margin-top: 40px;
     }
 
+    .finance h3{
+        height: 64px;
+        line-height: 64px;
+    }
+
     .right_col .finance .finance_list{
         border: 2px solid black;
-        border-radius: 4px;
+        border-radius: 15px;
     }
+
     .right_col .finance .finance_list li{
         border-bottom: 1px solid gray;
-        padding: 15px;
+        padding: 20px 15px;
+    }
+
+    .right_col .finance .finance_list li strong{
+        font-size: 16px;
+    }
+
+    .right_col .finance .finance_list li p{
+        color: gray;
     }
 
     .right_col .news{
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     .right_col .news ul{
-        margin-top: 20px;
-        border: 1px solid black;
+        margin-top: 30px;
+        display: inline-block; 
+        width: 295px; 
+        white-space: nowrap;
     }
     
     .right_col .news li{
         margin-bottom: 10px;
+        font-size: 16px;
     }
+
+    .right_col .news br{
+        border: 1px solid lightgrey;
+    }
+
     .right_col .right_banner{
-        border: 1px solid black;
+        border-top: 1px solid lightgray;
         margin-top: 20px;
+        padding-top: 20px;
         display: flex;
+        align-items: center;
     }
     .right_col .right_banner img{
-        width: 100px;
-        height: 100px;
+        width: 60px;
+        height: 60px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+    }
+
+    .right_banner span{
+        margin-left: 25px;
+        font-size: 16px;
     }
 
     .right_col .consumer{
-        margin-top: 200px;
+        margin-top: 60px;
         border-bottom: 1px solid gray;
     }
+
+    .right_col .consumer h3{
+        font-size: 16px;
+    }    
+
     .right_col .consumer p{
+        margin-top: 15px;
        margin-bottom: 20px;
     }
 
-    
     .right_col .footer{
         margin-top: 20px;
+        font-size: 12px;
+        font-weight: bold;
     }
+
+    .right_col .footer .position{
+        margin-top: 30px;
+    }
+
+    .right_col .footer .position a{
+        margin-right: 10px;
+    }
+
     .right_col .footer ul{
+        margin-top: 35px;
+    }
+
+    .right_col .footer ul li{
         display: flex;
-        border: 1px solid black;
+        padding: 1px 0;
+    }
+    .right_col .footer ul li strong{
+        width: 85px;
+    }
+
+    .footer .company_introduction li a{
+        width: 50%;
+        color: gray;
+    }
+
+    .footer .company_introduction~p{
+        margin-top: 7px;
+    }
+
+    .footer address{
+        margin-top: 20px;
+    }
+
+    .footer_img{
+        margin-top: 35px;
+    }
+    .footer_img img:first-child{
+        width: 56px;
+        height: 40px;
+    }
+    .footer_img img:nth-child(2){
+        width: 78px;
+        height: 40px;
+        margin-left: 15px;
     }
