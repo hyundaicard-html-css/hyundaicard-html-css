@@ -1,4 +1,4 @@
-# 국비 첫번째 프로젝트 hyundaicard 페이지 html/css 만들기
+# 국비 첫번째 프로젝트 hyundaicard 페이지 html/css
 
 <홈페이지 사이트>
 https://www.hyundaicard.com/index.jsp
