@@ -147,7 +147,7 @@ section .box1 .tap1 {
     width: 600px;
     height: 392px;
     border-radius: 25px;
-    background: url('/img/box1.1.png') no-repeat center/cover;
+    background: url('../img/box1.1.png') no-repeat center/cover;
     float: left;
 }
 section .box1 .tap2 {
@@ -155,7 +155,7 @@ section .box1 .tap2 {
     width: 300px;
     height: 392px;
     border-radius: 25px;
-    background: url('/img/box1.2.png') no-repeat center/cover;
+    background: url('../img/box1.2.png') no-repeat center/cover;
     float: left;
 }
 section .box1 .tap3 {
@@ -163,7 +163,7 @@ section .box1 .tap3 {
     width: 300px;
     height: 392px;
     border-radius: 25px;
-    background: url('/img/box1.3.png') no-repeat center/cover;
+    background: url('../img/box1.3.png') no-repeat center/cover;
     float: left;
 }
 section .box2 div {
@@ -201,36 +201,36 @@ section .box2 ul .cardC {
     height: 100px;
 }
 section .box2 ul .card1 {
-    background: url('/img/c1.jpg') no-repeat center/cover;
+    background: url('../img/c1.jpg') no-repeat center/cover;
 }
 section .box2 ul .card2 {
-    background: url('/img/c2.jpg') no-repeat center/cover;
+    background: url('../img/c2.jpg') no-repeat center/cover;
 }
 section .box2 ul .card3 {
-    background: url('/img/c3.jpg') no-repeat center/cover;
+    background: url('../img/c3.jpg') no-repeat center/cover;
 }
 section .box2 ul .card4 {
-    background: url('/img/c4.jpg') no-repeat center/cover;
+    background: url('../img/c4.jpg') no-repeat center/cover;
 }
 section .box2 ul .card5 {
-    background: url('/img/c5.jpg') no-repeat center/cover;
+    background: url('../img/c5.jpg') no-repeat center/cover;
 }
 section .box2 ul .card6 {
-    background: url('/img/c6.jpg') no-repeat center/cover;
+    background: url('../img/c6.jpg') no-repeat center/cover;
 }
 section .box2 ul .card7 {
-    background: url('/img/c7.jpg') no-repeat center/cover;
+    background: url('../img/c7.jpg') no-repeat center/cover;
 }
 section .box2 ul .card8 {
-    background: url('/img/h2.1.jpg') no-repeat center/cover;
+    background: url('../img/h2.1.jpg') no-repeat center/cover;
     border-radius: 20px;
 }
 section .box2 ul .card9 {
-    background: url('/img/h2.2.jpg') no-repeat center/cover;
+    background: url('../img/h2.2.jpg') no-repeat center/cover;
     border-radius: 20px;
 }
 section .box2 ul .card10 {
-    background: url('/img/h2.3.jpg') no-repeat center/cover;
+    background: url('../img/h2.3.jpg') no-repeat center/cover;
     border-radius: 20px;
 }
 
