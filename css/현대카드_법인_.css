@@ -1,7 +1,7 @@
 @font-face {
     font-family: YouandiModernTR;
     src: local('YouandiModernTR'), 
-            url('fonts/YouandiModernTR.ttf');
+            url('../fonts/YouandiModernTR.ttf');
     }
 /* reset */
 a {
@@ -320,40 +320,8 @@ section .box4 .b4 :nth-child(2) {
     z-index: 9999;
 
 }
-section .box4 .b-4 .mark1:after{
-    content: '';
-    display: inline-block;
-    width: 365px;
-    height: 15px;
-    background: rgb(123, 179, 201);
-    opacity: 0.5;
-    position: relative;
-    top: -43px;
-}
-section .box4 .b-4 .mark2:after{
-    content: '';
-    display: inline-block;
-    width: 240px;
-    height: 15px;
-    background: rgb(123, 179, 201);
-    opacity: 0.5;
-    position: relative;
-    left: -96px;
-    top: -20px;
-}
-
-/* section .box4 .b-4 .mark3:after{
-    content: '';
-    display: inline-block;
-    width: 185px;
-    height: 15px;
-    background: rgb(123, 179, 201);
-    opacity: 0.5;
-    position: relative;
-    right: -160px;
-    top: -20px;
-} */
 /* section end */
+
 
 /* aside */
 aside {
