@@ -32,8 +32,8 @@
 
 <strong>＃ 페이지 화면</strong>
 1) 메인페이지
-![Alt text](/img/mainpage.JPGcompanypage.JPG)
+![Alt text](/img/mainpage.JPG)
 2) 개인 사업자 페이지
- ![Alt text](/img/privatepage.JPGcompanypage.JPG)
+ ![Alt text](/img/privatepage.JPG)
 3) 법인 사업자 페이지
 ![Alt text](/img/companypage.JPG)
