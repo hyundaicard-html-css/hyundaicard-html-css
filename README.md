@@ -1,5 +1,5 @@
 
-<h1> 🍎주제 : 웹 페이지 클론코딩(HTML, CSS 기반) </h1>
+## 📸주제 : 웹 페이지 클론코딩(HTML, CSS 기반)
 <strong> [ 홈페이지 사이트 ] </strong>  https://www.hyundaicard.com/index.jsp
 
 <strong> [ 팀 원 ] </strong>
